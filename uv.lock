@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "python-template"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "tarsafe" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "tarsafe", specifier = ">=0.0.5" }]
+
+[[package]]
+name = "tarsafe"
+version = "0.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/17/a3/7787b1103146248f365528f1a4870e5d6c79c82175a1f8b5117617621bf3/tarsafe-0.0.5.tar.gz", hash = "sha256:cbdffc260d8a33f0e35ed7b70b2e2f56ad40e77019e5384bbe1cfc1ccccac79a", size = 2963, upload-time = "2023-03-21T15:04:05.046Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f1/8c/4aadcd0eca9001266ef026338df159cc5f75483abea8f9f97e2dc2fd705f/tarsafe-0.0.5-py3-none-any.whl", hash = "sha256:1a6aa8255c181d6070db3b083f6d969602c6306ba3dc7c836a288cc26a5c5bff", size = 5412, upload-time = "2023-03-21T15:04:02.328Z" },
+]
